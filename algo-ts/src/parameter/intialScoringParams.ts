@@ -21,7 +21,7 @@ export const initialScoringParams = [
     key: "lastEmployerTenureYears",
     label: "Tenure at Last Employer (Years)",
     type: "number",
-    weight: 11.11,
+    weight: 14.28,
     question: "How many years did the candidate work at their last employer?",
     validation: { min: 0, max: 30 }
   },
@@ -29,7 +29,7 @@ export const initialScoringParams = [
     key: "jobsInLast5Years",
     label: "Number of Jobs Held in Last 5 Years",
     type: "number",
-    weight: 11.11,
+    weight: 14.28,
     question: "How many distinct jobs has the candidate held in the last 5 years?",
     validation: { min: 0, max: 10 }
   },
@@ -37,7 +37,7 @@ export const initialScoringParams = [
     key: "longestSingleTenureYears",
     label: "Longest Single Employer Tenure (Years)",
     type: "number",
-    weight: 11.11,
+    weight: 14.28,
     question: "What is the candidate's longest continuous tenure with a single employer (years)?",
     validation: { min: 0, max: 30 }
   },
@@ -80,28 +80,28 @@ export const initialScoringParams = [
     key: "servedFullNoticeLastExit",
     label: "Served Full Notice Period at Last Exit",
     type: "boolean",
-    weight: 11.11,
+    weight: 14.28,
     question: "Did the candidate serve the full notice period at their last exit?"
   },
   // {
   //   key: "abscondingRecord",
   //   label: "Any Past Absconding Record",
   //   type: "boolean",
-  //   weight: 11.11,
+  //   weight: 14.28,
   //   question: "Does the candidate have any past record of absconding or leaving without formal notice?"
   // },
   {
     key: "rehireEligibilityFromLastEmployer",
     label: "Marked Eligible for Rehire by Last Employer",
     type: "boolean",
-    weight: 11.11,
+    weight: 14.28,
     question: "Is the candidate indicated as eligible for rehire by their previous employer (if known)?"
   },
   {
     key: "properHandoverDocumented",
     label: "Handover / Knowledge Transfer Documented at Exit",
     type: "boolean",
-    weight: 11.11,
+    weight: 14.28,
     question: "Was a formal handover/knowledge transfer documented and provided at the candidate's last exit?"
   },
   // {
@@ -116,7 +116,7 @@ export const initialScoringParams = [
   //   key: "exitType",
   //   label: "Exit Type (1=Voluntary,2=Mutual,3=Terminated)",
   //   type: "number",
-  //   weight: 11.11,
+  //   weight: 14.28,
   //   question: "What was the type of exit from the last employer? (1=Voluntary resignation, 2=Mutual separation, 3=Termination)",
   //   validation: { min: 1, max: 3 }
   // },
@@ -124,11 +124,10 @@ export const initialScoringParams = [
     key: "joinedOnAgreedDate",
     label: "Joined On Agreed Start Date (for last joining)",
     type: "boolean",
-    weight: 11.11,
+    weight: 14.28,
     question: "Did the candidate join their last role on the agreed/advertised start date?"
   }
 ];
-
 
 
 

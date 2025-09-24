@@ -75,7 +75,7 @@ export const intialScore = (
     ) {
       let points = 0;
       if (value >= 1) {
-        points = 11.11;
+        points = parameter?.weight;
       } else {
         points = 0;
       }
@@ -91,7 +91,7 @@ export const intialScore = (
     ) {
       let points = 0;
       if (value <= 4) {
-        points = 11.11;
+        points = parameter?.weight;
       } else {
         points = 0;
       }
@@ -107,7 +107,7 @@ export const intialScore = (
     ) {
       let points = 0;
       if (value >= 2) {
-        points = 11.11;
+        points = parameter?.weight;
       } else {
         points = 0;
       }

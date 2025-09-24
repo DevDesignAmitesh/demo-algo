@@ -1,6 +1,5 @@
 
 export const employmentGap = (value: number) => {
-    console.log(value)
     if (value === 0 || value <= 3) {
         return 25
     }
